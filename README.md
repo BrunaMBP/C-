@@ -8,11 +8,10 @@ int main()
 
 int INDICE = 13, SOMA = 0, K = 0;
 
-   while(K < INDICE){
+ while(K < INDICE){
 
-       K = K + 1;
-
-       SOMA = SOMA + K;
+K = K + 1;
+SOMA = SOMA + K;
 
    }
 
@@ -87,13 +86,12 @@ x = 60,98 km
 //Questão 5
 
    string novaStr=string.Empty;
-            string strOriginal;
-            int i;
-
-            strOriginal = "TesteInverter";
-
-            for (i = strOriginal.Length-1; i >=0; i--)
-            {
-                novaStr += strOriginal[i];
-            }
+   string strOriginal;
+   int i;
+   
+   strOriginal = "TesteInverter";
+   for (i = strOriginal.Length-1; i >=0; i--)
+   {
+   novaStr += strOriginal[i];
+   }
 
